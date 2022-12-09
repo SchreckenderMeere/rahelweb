@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+
+h1 + p {
+  font-size: 200%;
+}
+a:link {
+  color: pink; 
+    font-weight: bold;
+}
+
+a:visited {
+  color: cadetblue;
+    font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
